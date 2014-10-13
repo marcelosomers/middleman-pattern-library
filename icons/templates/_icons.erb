@@ -1,0 +1,6 @@
+<% @glyphs.each do |name, value| selector = @options[:css_selector].sub('{{glyph}}', name.to_s) %>
+<li>
+    <i class="<%= selector[1..-1] %>" data-icon="<%= selector[1..-1] %>"></i>
+    <span><%= selector %></span>
+</li>
+<% end %>

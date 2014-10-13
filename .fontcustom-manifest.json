@@ -1,0 +1,64 @@
+{
+  "checksum": {
+    "previous": "6c36f744f74c2a165898b53df19caff48fcc8d6f88d6d8732dff9aa3c7387366",
+    "current": "6c36f744f74c2a165898b53df19caff48fcc8d6f88d6d8732dff9aa3c7387366"
+  },
+  "fonts": [
+    "source/fonts/fontcustom_6c36f744f74c2a165898b53df19caff4.ttf",
+    "source/fonts/fontcustom_6c36f744f74c2a165898b53df19caff4.svg",
+    "source/fonts/fontcustom_6c36f744f74c2a165898b53df19caff4.woff",
+    "source/fonts/fontcustom_6c36f744f74c2a165898b53df19caff4.eot"
+  ],
+  "glyphs": {
+    "check": {
+      "codepoint": 61696,
+      "source": "icons/check.svg"
+    },
+    "globe": {
+      "codepoint": 61697,
+      "source": "icons/globe.svg"
+    },
+    "lock": {
+      "codepoint": 61698,
+      "source": "icons/lock.svg"
+    },
+    "rss": {
+      "codepoint": 61699,
+      "source": "icons/rss.svg"
+    }
+  },
+  "options": {
+    "autowidth": false,
+    "config": "fontcustom.yml",
+    "css_selector": ".icon-{{glyph}}",
+    "debug": false,
+    "font_ascent": 448,
+    "font_descent": 64,
+    "font_design_size": 16,
+    "font_em": 512,
+    "font_name": "fontcustom",
+    "force": false,
+    "input": {
+      "templates": "icons/templates",
+      "vectors": "icons"
+    },
+    "no_hash": false,
+    "output": {
+      "_icons.erb": "source/documentation",
+      "_icons.scss": "source/stylesheets",
+      "css": "source/fonts",
+      "fonts": "source/fonts",
+      "preview": "source/fonts"
+    },
+    "preprocessor_path": "",
+    "quiet": false,
+    "templates": [
+      "_icons.scss",
+      "_icons.erb"
+    ]
+  },
+  "templates": [
+    "source/stylesheets/_icons.scss",
+    "source/documentation/_icons.erb"
+  ]
+}
